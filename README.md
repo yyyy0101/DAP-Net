@@ -43,6 +43,8 @@ Run get_map.py to obtain the evaluation results, which will be saved in the map_
 The OpenSARShip dataset we used in this paper comes from:
 Huang, L., Liu, B., Li, B., Guo, W., Yu, W., Zhang, Z., Yu, W.: OpenSARShip: A dataset dedicated to Sentinel-1 ship interpretation. IEEE J. Sel. Top. Appl. EarthObs. Remote Sens. 11(1), 195–208 (2018) 
 https://doi.org/10.1109/JSTARS.2017.2755672
+Download site: 
+https://opensar.sjtu.edu.cn/DataAndCodes.html
 ## Key code interpretation 
 BackboneNet.py : Code for the backbone network.
 attention.py : Code for the attention mechanism module used in this paper.
