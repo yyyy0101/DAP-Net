@@ -1,0 +1,26 @@
+<annotation>
+	<folder>tanker_vh</folder>
+	<filename>Visual_Tanker_x17129_y9942.jpg</filename>
+	<path>E:\cargo\tanker\tanker_vh\Visual_Tanker_x17129_y9942.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>33</width>
+		<height>33</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>tanker</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>9</xmin>
+			<ymin>14</ymin>
+			<xmax>22</xmax>
+			<ymax>21</ymax>
+		</bndbox>
+	</object>
+</annotation>

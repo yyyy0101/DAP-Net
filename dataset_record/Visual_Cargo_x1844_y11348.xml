@@ -1,0 +1,26 @@
+<annotation>
+	<folder>cargo_vh</folder>
+	<filename>Visual_Cargo_x1844_y11348.jpg</filename>
+	<path>E:\cargo\cargo\Visual_Cargo_x1844_y11348.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>57</width>
+		<height>57</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cargo</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>20</xmin>
+			<ymin>24</ymin>
+			<xmax>40</xmax>
+			<ymax>38</ymax>
+		</bndbox>
+	</object>
+</annotation>

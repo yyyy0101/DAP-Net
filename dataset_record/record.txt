@@ -1,0 +1,6 @@
+The OpenSARShip dataset we used in this paper comes from:
+Huang, L., Liu, B., Li, B., Guo, W., Yu, W., Zhang, Z., Yu, W.: OpenSARShip: A dataset dedicated to Sentinel-1 ship interpretation. IEEE J. Sel. Top. Appl. EarthObs. Remote Sens. 11(1), 195–208 (2018) 
+https://doi.org/10.1109/JSTARS.2017.2755672
+-------------------Dataset processing-----------
+The training is conducted using the VOC format, and you need to prepare the dataset yourself before training. 
+We have provided an example of the .xml file.

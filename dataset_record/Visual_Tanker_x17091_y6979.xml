@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Tanker-vh</folder>
+	<filename>Visual_Tanker_x17091_y6979.jpg</filename>
+	<path>E:\opensarship\Tanker-vh\Visual_Tanker_x17091_y6979.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>281</width>
+		<height>281</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>tanker</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>104</xmin>
+			<ymin>134</ymin>
+			<xmax>178</xmax>
+			<ymax>150</ymax>
+		</bndbox>
+	</object>
+</annotation>

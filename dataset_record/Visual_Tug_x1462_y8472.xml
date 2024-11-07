@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Tug-vh</folder>
+	<filename>Visual_Tug_x1462_y8472.jpg</filename>
+	<path>E:\Tug\Tug-vh\Visual_Tug_x1462_y8472.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>21</width>
+		<height>21</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Tug</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>7</xmin>
+			<ymin>8</ymin>
+			<xmax>15</xmax>
+			<ymax>14</ymax>
+		</bndbox>
+	</object>
+</annotation>
