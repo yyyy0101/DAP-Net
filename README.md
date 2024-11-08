@@ -43,7 +43,7 @@ Attention mechanism modules and backbone networks have been given.
 ```src/nets/BackboneNet.py```  
 ```src/attention.py```  
 Environmental parameters are given above.
-```## Environment```
+```## Environment```  
 After configuring the environment parameters and preparing the training dataset, you are ready to train.   
 ## How to predict
 Run ```predict.py``` for detection, and then enter the image path for detection.  
@@ -67,6 +67,6 @@ https://opensar.sjtu.edu.cn/DataAndCodes.html
 Support different size model training, respectively, s, m, l, x version of yolov5.  
 ## Conclusion
 The training process involves feeding images into the YOLO model, where forward propagation generates predictions such as bounding boxes, class probabilities, and confidence scores. Then, the loss function calculates the discrepancy between the predictions and the true labels. The loss function includes location loss (such as CIoU), confidence loss, and class loss. An improved version of the loss function is also provided. 
-Afterward, backpropagation computes the gradients, and the optimizer (such as Adam or SGD) updates the network's weights. This process is repeated for multiple iterations until the loss converges or the training reaches a predefined number of epochs. Once training is completed, the model is evaluated on the test set, and an optimized model capable of performing object detection is generated.
+Afterward, backpropagation computes the gradients, and the optimizer (such as Adam or SGD) updates the network's weights. This process is repeated for multiple iterations until the loss converges or the training reaches a predefined number of epochs. Once training is completed, the model is evaluated on the test set, and an optimized model capable of performing object detection is generated.  
 In this file, we provide the source code, including key modules such as dual input, attention mechanisms, loss functions, and backbone network modules. Additionally, we also provide the prediction code, MAP (mean average precision) calculation code, network output inspection code, and loss function comparison code.
 
