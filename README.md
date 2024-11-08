@@ -2,8 +2,10 @@
 -----Code----------------------
 The source code of the proposed algorithm in this paper are given in this folder.
 ## Catalogue
-1.Performance
-2.Environment
+1.Performance  
+
+2.Environment  
+
 3.Dataset processing
 4.How to train
 5.How to predict
@@ -16,8 +18,8 @@ The source code of the proposed algorithm in this paper are given in this folder
 | OpenSARShip-training | [self-training.h5]| OpenSARShip-test | 640x640 |mAP 0.5|
 ## Environment
 |Package  |  Version |
-|scipy==1.4.1.|
-|numpy==1.18.4|
+|scipy==1.4.1.|  
+|numpy==1.18.4|  
 |matplotlib==3.2.1|
 |opencv_python==4.2.0.34|
 |tensorflow_gpu==2.2.0|
