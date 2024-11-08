@@ -1,6 +1,6 @@
 # DAP-Net
 -----Code------  
-DAP-Net: Enhancing SAR Target Recognition with Dual-Channel Attention and Polarimetric Features
+DAP-Net: Enhancing SAR Target Recognition with Dual-Channel Attention and Polarimetric Features  
 The source code of the proposed algorithm in this paper are given in this folder.
 ## Catalogue
 1.Performance  
