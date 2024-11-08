@@ -1,18 +1,16 @@
 # DAP-Net
------Code----------------------
+-----Code------  
 The source code of the proposed algorithm in this paper are given in this folder.
 ## Catalogue
 1.Performance  
-
 2.Environment  
-
-3.Dataset processing
-4.How to train
-5.How to predict
-6.Dataset Source
-7.Key code interpretation 
-8.Others
-9.Conclusion
+3.Dataset processing  
+4.How to train  
+5.How to predict  
+6.Dataset Source  
+7.Key code interpretation   
+8.Others  
+9.Conclusion  
 ## Performance
 | Training dataset | Weight file name | test dataset | Input image size | mAP 0.5:0.95 | mAP 0.5 |
 | OpenSARShip-training | [self-training.h5]| OpenSARShip-test | 640x640 |mAP 0.5|
