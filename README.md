@@ -16,19 +16,19 @@ The source code of the proposed algorithm in this paper are given in this folder
 | OpenSARShip-training | [self-training.h5]| OpenSARShip-test | 640x640 |mAP 0.5|  
 ## Environment
 |Package  |  Version |  
-scipy==1.4.1.    
-numpy==1.18.4    
-matplotlib==3.2.1  
-opencv_python==4.2.0.34  
-tensorflow_gpu==2.2.0  
-tqdm==4.46.1  
-Pillow==8.2.0  
-h5py==2.10.0  
-tensorflow-gpu-estimator==2.2.0  
-termcolor==2.3.0  
-threadpoolctl==3.1.0  
-tqdm==4.46.1  
-opencv-python==4.2.0.34   
+* scipy==1.4.1.    
+* numpy==1.18.4    
+* matplotlib==3.2.1  
+* opencv_python==4.2.0.34  
+* tensorflow_gpu==2.2.0  
+* tqdm==4.46.1  
+* Pillow==8.2.0  
+* h5py==2.10.0  
+* tensorflow-gpu-estimator==2.2.0  
+* termcolor==2.3.0  
+* threadpoolctl==3.1.0  
+* tqdm==4.46.1  
+* opencv-python==4.2.0.34   
 ## Dataset processing
 The training is conducted using the VOC format.
 We recommend using LabelImg.  
@@ -39,11 +39,16 @@ We have provided examples of the .xml file in the trainingdataset_record.
 
 ## How to train
 Attention mechanism modules and backbone networks have been given.  
+Environmental parameters are given above.
 After configuring the environment parameters and preparing the training dataset, you are ready to train.   
 ## How to predict
 Run predict.py for detection, and then enter the image path for detection.  
+Notice that model_path and classes_path are changed to your own paths.  
 model_path points to the trained weight file.   
 Run get_map.py to obtain the evaluation results, which will be saved in the map_out folder.  
+![Uploading cargo_x24691_9753.png…]()  
+![Tanker(1)](https://github.com/user-attachments/assets/4e1b92cb-bc13-4265-85a4-211eda72cb1e)
+
 ## DataSet Source
 The OpenSARShip dataset we used in this paper comes from:  
 Huang, L., Liu, B., Li, B., Guo, W., Yu, W., Zhang, Z., Yu, W.: OpenSARShip: A dataset dedicated to Sentinel-1 ship interpretation. IEEE J. Sel. Top. Appl. EarthObs. Remote Sens. 11(1), 195–208 (2018)   
