@@ -16,22 +16,27 @@ The source code of the proposed algorithm in this paper are given in this folder
 | OpenSARShip-training | [self-training.h5]| OpenSARShip-test | 640x640 |mAP 0.5|  
 ## Environment
 |Package  |  Version |  
-|scipy==1.4.1.|    
-|numpy==1.18.4|    
-|matplotlib==3.2.1|  
-|opencv_python==4.2.0.34|  
-|tensorflow_gpu==2.2.0|  
-|tqdm==4.46.1|  
-|Pillow==8.2.0|  
-|h5py==2.10.0|  
-|tensorflow-gpu-estimator==2.2.0|  
-|termcolor==2.3.0|  
-|threadpoolctl==3.1.0|  
-|tqdm==4.46.1|  
-|opencv-python==4.2.0.34|   
+scipy==1.4.1.    
+numpy==1.18.4    
+matplotlib==3.2.1  
+opencv_python==4.2.0.34  
+tensorflow_gpu==2.2.0  
+tqdm==4.46.1  
+Pillow==8.2.0  
+h5py==2.10.0  
+tensorflow-gpu-estimator==2.2.0  
+termcolor==2.3.0  
+threadpoolctl==3.1.0  
+tqdm==4.46.1  
+opencv-python==4.2.0.34   
 ## Dataset processing
-The training is conducted using the VOC format.   
+The training is conducted using the VOC format.
+We recommend using LabelImg.  
+In LabelImg, you can select the PASCAL VOC format for labeling categories, and the generated file type will be:  
+PASCAL VOC——xx.XML.  
 We have provided examples of the .xml file in the trainingdataset_record.
+![image](https://github.com/user-attachments/assets/028e1ecb-39e2-4417-b8a8-f696ef3fc727)  
+
 ## How to train
 Attention mechanism modules and backbone networks have been given.  
 After configuring the environment parameters and preparing the training dataset, you are ready to train.   
