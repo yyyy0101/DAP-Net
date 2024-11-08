@@ -38,8 +38,12 @@ We have provided examples of the .xml file in the trainingdataset_record.
 ![image](https://github.com/user-attachments/assets/028e1ecb-39e2-4417-b8a8-f696ef3fc727)  
 
 ## How to train
+Our input consists of a dual-channel module that requires the preparation of two types of polarization feature images as inputs, labeled as the VH channel and the VV channel.  
 Attention mechanism modules and backbone networks have been given.  
+```src/nets/BackboneNet.py```  
+```src/attention.py```  
 Environmental parameters are given above.
+```## Environment```
 After configuring the environment parameters and preparing the training dataset, you are ready to train.   
 ## How to predict
 Run ```predict.py``` for detection, and then enter the image path for detection.  
