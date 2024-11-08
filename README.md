@@ -46,9 +46,7 @@ Run predict.py for detection, and then enter the image path for detection.
 Notice that model_path and classes_path are changed to your own paths.  
 model_path points to the trained weight file.   
 Run get_map.py to obtain the evaluation results, which will be saved in the map_out folder.  
-
-![Tanker(1)](https://github.com/user-attachments/assets/4e1b92cb-bc13-4265-85a4-211eda72cb1e)  ![Uploading cargo_x24691_9753.png…]()
-
+![image](https://github.com/user-attachments/assets/b93facd2-7fed-4bd9-8e0b-d4c488946172)  
 
 ## DataSet Source
 The OpenSARShip dataset we used in this paper comes from:  
