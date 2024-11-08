@@ -42,23 +42,23 @@ Attention mechanism modules and backbone networks have been given.
 Environmental parameters are given above.
 After configuring the environment parameters and preparing the training dataset, you are ready to train.   
 ## How to predict
-Run predict.py for detection, and then enter the image path for detection.  
+Run ```predict.py``` for detection, and then enter the image path for detection.  
 Notice that model_path and classes_path are changed to your own paths.  
 model_path points to the trained weight file.   
 Run get_map.py to obtain the evaluation results, which will be saved in the map_out folder.  
 ![image](https://github.com/user-attachments/assets/b93facd2-7fed-4bd9-8e0b-d4c488946172)  
 
 ## DataSet Source
-The OpenSARShip dataset we used in this paper comes from:  
+* The OpenSARShip dataset we used in this paper comes from:  
 Huang, L., Liu, B., Li, B., Guo, W., Yu, W., Zhang, Z., Yu, W.: OpenSARShip: A dataset dedicated to Sentinel-1 ship interpretation. IEEE J. Sel. Top. Appl. EarthObs. Remote Sens. 11(1), 195–208 (2018)   
 https://doi.org/10.1109/JSTARS.2017.2755672  
-Download site:   
+* Download site:   
 https://opensar.sjtu.edu.cn/DataAndCodes.html  
 ## Key code interpretation 
-BackboneNet.py : Code for the backbone network.  
-attention.py : Code for the attention mechanism module used in this paper.  
-yolo.py : The full implementation of a YOLO-based object detection model with support for two images as input.  
-yolo_training.py : This code is used to compute the loss function for the YOLO (You Only Look Once) object detection model and define the learning rate scheduler.  
+* BackboneNet.py : Code for the backbone network.  
+* attention.py : Code for the attention mechanism module used in this paper.  
+* yolo.py : The full implementation of a YOLO-based object detection model with support for two images as input.  
+* yolo_training.py : This code is used to compute the loss function for the YOLO (You Only Look Once) object detection model and define the learning rate scheduler.  
 ## Others
 Support different size model training, respectively, s, m, l, x version of yolov5.  
 ## Conclusion
