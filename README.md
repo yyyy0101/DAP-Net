@@ -13,7 +13,7 @@ The source code of the proposed algorithm in this paper are given in this folder
 9.Conclusion  
 ## Performance
 | Training dataset | Weight file name | test dataset | Input image size | mAP 0.5:0.95 | mAP 0.5 |  
-| OpenSARShip-training | [self-training.h5]| OpenSARShip-test | 640x640 |mAP 0.5|  
+| OpenSARShip-training | [```self-training.h5```]| OpenSARShip-test | 640x640 |mAP 0.5|  
 ## Environment
 |Package  |  Version |  
 * scipy==1.4.1.    
@@ -31,9 +31,9 @@ The source code of the proposed algorithm in this paper are given in this folder
 * opencv-python==4.2.0.34   
 ## Dataset processing
 The training is conducted using the VOC format.
-We recommend using LabelImg.  
+We recommend using ```LabelImg```.  
 In LabelImg, you can select the PASCAL VOC format for labeling categories, and the generated file type will be:  
-PASCAL VOC——xx.XML.  
+```PASCAL VOC——xx.XML```.  
 We have provided examples of the .xml file in the trainingdataset_record.
 ![image](https://github.com/user-attachments/assets/028e1ecb-39e2-4417-b8a8-f696ef3fc727)  
 
@@ -45,7 +45,7 @@ After configuring the environment parameters and preparing the training dataset,
 Run ```predict.py``` for detection, and then enter the image path for detection.  
 Notice that model_path and classes_path are changed to your own paths.  
 model_path points to the trained weight file.   
-Run get_map.py to obtain the evaluation results, which will be saved in the map_out folder.  
+Run  ```get_map.py``` to obtain the evaluation results, which will be saved in the map_out folder.  
 ![image](https://github.com/user-attachments/assets/b93facd2-7fed-4bd9-8e0b-d4c488946172)  
 
 ## DataSet Source
@@ -55,10 +55,10 @@ https://doi.org/10.1109/JSTARS.2017.2755672
 * Download site:   
 https://opensar.sjtu.edu.cn/DataAndCodes.html  
 ## Key code interpretation 
-* BackboneNet.py : Code for the backbone network.  
-* attention.py : Code for the attention mechanism module used in this paper.  
-* yolo.py : The full implementation of a YOLO-based object detection model with support for two images as input.  
-* yolo_training.py : This code is used to compute the loss function for the YOLO (You Only Look Once) object detection model and define the learning rate scheduler.  
+* ```BackboneNet.py``` : Code for the backbone network.  
+* ```attention.py``` : Code for the attention mechanism module used in this paper.  
+* ```yolo.py``` : The full implementation of a YOLO-based object detection model with support for two images as input.  
+* ```yolo_training.py``` : This code is used to compute the loss function for the YOLO (You Only Look Once) object detection model and define the learning rate scheduler.  
 ## Others
 Support different size model training, respectively, s, m, l, x version of yolov5.  
 ## Conclusion
