@@ -59,6 +59,7 @@ Huang, L., Liu, B., Li, B., Guo, W., Yu, W., Zhang, Z., Yu, W.: OpenSARShip: A d
 https://doi.org/10.1109/JSTARS.2017.2755672  
 * Download site:   
 https://opensar.sjtu.edu.cn/DataAndCodes.html  
+* The ES-SAR dataset we have given in the dataset folder.  
 ## Key code interpretation 
 * ```BackboneNet.py``` : Code for the backbone network.  
 * ```attention.py``` : Code for the attention mechanism module used in this paper.  
